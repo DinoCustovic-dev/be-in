@@ -5,6 +5,9 @@ import '@/styles/globals.css';
 // !STARTERCONF This is for demo purposes, remove @/styles/colors.css import immediately
 import '@/styles/colors.css';
 
+import Footer from '@/components/layout/Footer';
+import Header from '@/components/layout/Header';
+
 import { siteConfig } from '@/constant/config';
 
 // !STARTERCONF Change these default meta
@@ -56,7 +59,11 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body>{children}</body>
+      <body>
+        <Header />
+        <main className='pt-16'>{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }

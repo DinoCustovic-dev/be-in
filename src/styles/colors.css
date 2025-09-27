@@ -1,4 +1,32 @@
-/* //!STARTERCONF Remove this file after copying your desired color, this is a large file you should remove it. */
+/* BE IN HAIR DESIGN Salon Colors */
+
+/* Primary Colors - Brown/Tan tones for salon */
+:root {
+  --tw-color-primary-50: 250 248 247;
+  --tw-color-primary-100: 245 240 235;
+  --tw-color-primary-200: 235 225 215;
+  --tw-color-primary-300: 220 205 190;
+  --tw-color-primary-400: 200 175 155;
+  --tw-color-primary-500: 92 58 58; /* Main salon color #5C3A3A */
+  --tw-color-primary-600: 82 48 48;
+  --tw-color-primary-700: 72 38 38;
+  --tw-color-primary-800: 62 28 28;
+  --tw-color-primary-900: 52 18 18;
+}
+
+/* Accent Colors */
+:root {
+  --color-accent-silver: 192 192 192; /* #C0C0C0 */
+  --color-accent-gold: 212 175 55; /* #D4AF37 */
+  --color-accent-white: 255 255 255; /* #FFFFFF */
+}
+
+/* Neutral Colors */
+:root {
+  --color-neutral-dark: 44 44 44; /* #2C2C2C */
+  --color-neutral-medium: 102 102 102; /* #666666 */
+  --color-neutral-light: 245 245 245; /* #F5F5F5 */
+}
 
 .slate {
   --tw-color-primary-50: 248 250 252;
